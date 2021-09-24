@@ -1,9 +1,13 @@
+const colors = require('tailwindcss/colors')
+
+
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './layout/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
     colors: {
+      ...colors,
       primary: '#ff284f',
       success: "#3BC57A",
       dark: '#3F3F3F',
@@ -18,8 +22,8 @@ module.exports = {
         '2xl': '6rem',
       },
     },
-    width: {
-      '480': "480px"
+    fontFamily: {
+      sans: ['Barlow', 'sans-serif'],
     },
     variants: {
       extend: {},
