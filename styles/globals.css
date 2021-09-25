@@ -8,9 +8,13 @@
   .navbarButton {
     @apply px-10 py-2 my-1 mx-1 hover:bg-primary hover:text-white transition-all duration-150 rounded-md cursor-pointer;
   }
-}
-@layer components {
   .heroCard {
-    @apply w-44 h-40 bg-white text-dark hover:bg-dark hover:text-white transition-all duration-100 text-center p-5 flex flex-col space-y-2 rounded-lg;
+    @apply w-44 h-40 bg-white text-dark hover:bg-dark hover:text-white font-medium transition-all duration-100 text-center p-5 flex flex-col space-y-2 rounded-lg cursor-pointer;
+  }
+  .btn-login {
+    @apply bg-dark text-white font-medium py-2 px-5 rounded flex justify-center items-center space-x-2 hover:bg-white hover:text-dark border border-dark transition-all duration-200;
+  }
+  .course-tag {
+    @apply text-lg mx-1 my-2 flex space-x-2 px-2 justify-center items-center bg-white rounded-full;
   }
 }

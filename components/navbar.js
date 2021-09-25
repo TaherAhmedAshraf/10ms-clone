@@ -7,8 +7,8 @@ import { RiMenu3Fill } from 'react-icons/ri'
 export default function Navbar() {
     return (
         <>
-            <header>
-                <div className='container mx-auto my-3'>
+            <header className='shadow-low'>
+                <div className='container mx-auto py-3 mb-4'>
                     <div className='flex justify-between items-center'>
                         <div><Image src={Logo} objectFit='contain' width='140px' /></div>
                         <div className='bg-gray-100 rounded-lg  hidden lg:inline-flex'>
@@ -20,7 +20,7 @@ export default function Navbar() {
                             </ul>
                         </div>
                         <div className='hidden lg:inline-flex'>
-                            <button className='bg-dark text-white font-medium py-2 px-5 rounded flex justify-center items-center space-x-1'>
+                            <button className='btn-login'>
                                 <CgLogIn className='text-xl' /><span>Log in</span>
                             </button>
                         </div>

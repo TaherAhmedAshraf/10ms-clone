@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import Academia from '../../assets/images/academic.webp'
-import Admission from '../../assets/images/admission.webp'
-import University from '../../assets/images/university.webp'
-import HeroImage from '../../assets/images/heroImage.png'
+import Academia from '../../assets/icons/academic.webp'
+import Admission from '../../assets/icons/admission.webp'
+import University from '../../assets/icons/university.webp'
+import HeroImage from '../../assets/icons/heroImage.png'
 
 
 export default function Hero() {
@@ -17,8 +17,8 @@ export default function Hero() {
                             <p className='text-sm text-dark font-medium'>Choose any topic from class 1-12, Admission Test, University, Skill Development and enjoy your personalized learning journey. <span className='text-primary font-semibold'>Select your path & start</span></p>
                             <div className='pt-5 flex space-x-5'>
                                 <div className='heroCard'><Image src={Academia} width='80px' objectFit='contain' /><h6>Class 1-12</h6></div>
-                                <div className='heroCard'><Image src={Admission} width='80px' objectFit='contain' /><h6>Class 1-12</h6></div>
-                                <div className='heroCard'><Image src={University} width='80px' objectFit='contain' /><h6>Class 1-12</h6></div>
+                                <div className='heroCard'><Image src={Admission} width='80px' objectFit='contain' /><h6>Admission Test</h6></div>
+                                <div className='heroCard'><Image src={University} width='80px' objectFit='contain' /><h6>Skills</h6></div>
                             </div>
                         </div>
                         <div className='px-8'><Image src={HeroImage} /></div>
