@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
         <>
             <header className='shadow-low'>
-                <div className='container mx-auto py-3 mb-4'>
+                <div className='container mx-auto py-3'>
                     <div className='flex justify-between items-center'>
                         <div><Image src={Logo} objectFit='contain' width='140px' /></div>
                         <div className='bg-gray-100 rounded-lg  hidden lg:inline-flex'>
