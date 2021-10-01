@@ -17,4 +17,7 @@
   .course-tag {
     @apply text-lg mx-1 my-2 flex space-x-2 px-2 justify-center items-center bg-white rounded-full;
   }
+  .bg-footer {
+    background: linear-gradient(180deg, #363643, #110e17);
+  }
 }
